@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+# Boid Simulation of Predator Avoidance in Fish Schools
+
+## Boid Simulation of Predator Avoidance in Fish Schools
 
 You can use the [editor on GitHub](https://github.com/gupett/CG-Project/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
