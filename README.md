@@ -1,15 +1,17 @@
-## Background
+## Initial Project Specification
+
+### Background
 Small fish have a habit of gathering into very large groups. They do this for a Multitude of benefits, one of them being that as a group each individual member has a higher chance of surviving an attack from a predator.
 
 The fish do not do this as a conscious cooperation but instead each fish acts independently and only cares for its own survival. This independent form of accidental cooperation is a behavior best simulated with boids. 
 
 Boids are simulated actors that when in masses are able to achieve complex results but where each individual actor is independent with a relatively simple artificial intelligence.
 
-## Problem Description
+### Problem Description
 Create a boid simulation of schooling fish and predator fish. When a predator fish moves through a school each individual fish in its proximity avoid it without intersecting other fishes. How well can an individual fish in a school avoid a predator in a computer simulation?
 
 
-## Technical Description
+### Technical Description
 
 A set number of boid fishes are spawned at the beginning of a simulation. Each schooling boid fish follows a set of 4 rules.
 
@@ -24,7 +26,7 @@ A predator actor exist in the simulation. The predator actor follows the mouse p
 The simulation is to be in real time from a 2D top-down perspective with actor fishes being different colored shapes to differentiate schooling fish from fish in a school from predator fish.
 
 
-## Sample code
+### Sample code
 
 You can use the [editor on GitHub](https://github.com/gupett/CG-Project/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
