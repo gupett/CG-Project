@@ -32,7 +32,7 @@ A predator actor exist in the simulation. The predator actor follows the mouse p
 The simulation is to be in real time from a 2D top-down perspective with actor fishes being different colored shapes to differentiate schooling fish from fish in a school from predator fish.
 
 
-### Sample code
+## Sample code
 
 You can use the [editor on GitHub](https://github.com/gupett/CG-Project/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
