@@ -1,3 +1,9 @@
+## Starting the Project
+
+Since our focus is on the boid simulation and not the graphics part we were advised to use [a lab](https://www.kth.se/social/files/54cb7578f27654629532c3cc/boids.pdf) lab from the KTH course [Models and Simulation (DD1354)](https://www.kth.se/social/course/DD1354/) for a neat graphical basis. This will look much nicer than the project description version of shapes in different colors.
+
+Our intention right now is to recreate as much as necessary from the lab and then optimzie and add to it.
+
 ## Initial Project Specification
 
 ### Background
