@@ -8,7 +8,7 @@ And doing the lab (added like 12 lines of code and some other very minor changes
 
 ![](Images/first%20school.png?raw=true)
 
-Now we going to optimize to increase the number of fish and, of course, add a predator to the system. We also intend to make fish behaviour some changes to make the simulation look more pleasant.
+Now we going to optimize to increase the number of fish and, of course, add a predator to the system. We also intend to make some fish behaviour changes to make the simulation look more pleasant.
 
 ## Starting the Project
 
