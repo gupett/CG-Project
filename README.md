@@ -4,17 +4,27 @@ Turns out [the lab](https://www.kth.se/social/files/54cb7578f27654629532c3cc/boi
 
 ![](Images/Initial.png?raw=true)
 
-And doing the lab (added like 12 lines of code and some other very minor changes) resulted in working rad looking schools:
+And doing the lab (added like 12 lines of code and some other very minor changes). We could go into detail of what exact changes we did but since this is a lab for a course we risk giving the answers to course participants. The result from the lab is working simple schooling behavior:
 
 ![](Images/first%20school.png?raw=true)
 
-Now we are going to optimize to increase the number of fish and, of course, add a predator to the system. We also intend to make some fish behaviour changes to make the simulation look more pleasant.
+Instead of giving the answers to the lab we implemented we will explain how the boids work in this simulation.
+
+Each boid in the system have a acceleration. The acceleration updates the boid's _velocity_ and _position_ each time step. This acceleration is updated every time step from 3 different **forces**.
+
+1. **Separation Force** is the force keeping the fishes from colliding. Every fish within some small radius of a fish is pushed away.
+2. **Alignment Force** is the force making fishes in a school move in a similar direction. The force makes the fish try to mimic the average velocity and direction of every fish within some sizeable radius.
+3. **Cohesion Force** is a force acting to keep a school together. Within a school each fish slowly tries to move to its perceived center of the school (average position of fish within a sizeable radius).
+
+These three forces are updated by for each fish check ALL other fishes in the system and if they are within some radius update the correct force. Checking every fish in the system can be very wasteful and we intend to optimize this.
+
+The next step is to optimize the calculations for increased the number of fishes and, of course, add a predator to the system. We also intend to make some fish behaviour changes to make the simulation look more pleasant. For instance right now once all fish are in one school they just aimlessly swim straight forward in constant speed unil they bounce off a wall.
 
 ## Starting the Project
 
 We were advised to use a lab from the KTH course [Models and Simulation (DD1354)](https://www.kth.se/social/course/DD1354/) as a basis (you need a KTH login to see [the lab](https://www.kth.se/social/files/54cb7578f27654629532c3cc/boids.pdf)). Since our focus is on the boid simulation and not the graphics part we decided to use the lab to have neat visuals to work with. This will look much nicer than the project description version of shapes in different colors for fishes and predators.
 
-Our intention right now is to recreate as much as necessary from the lab and then optimzie and add to it. 
+Our intention right now is to recreate as much as necessary from the lab and then optimzie and add to it. The lab is essentially a finished working boid simulation with some blocks of code missing which we are to fill in.
 
 ## Initial Project Specification
 
