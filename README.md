@@ -1,4 +1,4 @@
-## Done with a basis
+## Done with a Basis
 
 Turns out [the lab](https://www.kth.se/social/files/54cb7578f27654629532c3cc/boids.pdf) had pretty much everything in it already. Just running the provided lab code gave this:
 
