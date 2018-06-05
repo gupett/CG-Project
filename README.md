@@ -12,7 +12,7 @@ Now we going to optimize to increase the number of fish and, of course, add a pr
 
 ## Starting the Project
 
-We were advised to use a lab from the KTH course [Models and Simulation (DD1354)](https://www.kth.se/social/course/DD1354/) as a basis (you need a KTH login to see [the lab](https://www.kth.se/social/files/54cb7578f27654629532c3cc/boids.pdf)). Since our focus is on the boid simulation and not the graphics part we decided to use the lab for it to have neat visuals to work with. This will look much nicer than the project description version of shapes in different colors for fishes and predators.
+We were advised to use a lab from the KTH course [Models and Simulation (DD1354)](https://www.kth.se/social/course/DD1354/) as a basis (you need a KTH login to see [the lab](https://www.kth.se/social/files/54cb7578f27654629532c3cc/boids.pdf)). Since our focus is on the boid simulation and not the graphics part we decided to use the lab to have neat visuals to work with. This will look much nicer than the project description version of shapes in different colors for fishes and predators.
 
 Our intention right now is to recreate as much as necessary from the lab and then optimzie and add to it. 
 
