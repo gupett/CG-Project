@@ -16,7 +16,7 @@ Each boid in the system have a acceleration. The acceleration updates the boid's
 2. **Alignment Force** is the force making fishes in a school move in a similar direction. The force makes the fish try to mimic the average velocity and direction of every fish within some sizeable radius.
 3. **Cohesion Force** is a force acting to keep a school together. Within a school each fish slowly tries to move to its perceived center of the school (average position of fish within a sizeable radius).
 
-These three forces are updated by each fish checking ALL other fishes in the system and if they are within the appropriate radius update the correct force. Checking every fish in the system can be very wasteful and we intend to optimize this.
+These three forces are updated by each fish checking ALL other fishes in the system and separate its neighbors by if they are within the appropriate radius. Checking every fish in the system can be very wasteful and we intend to optimize this.
 
 The next step is to optimize the calculations for increased the number of fishes and, of course, add a predator to the system. We also intend to make some fish behaviour changes to make the simulation look more pleasant. For instance right now once all fish are in one school they just aimlessly swim straight forward in constant speed unil they bounce off a wall.
 
