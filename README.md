@@ -1,3 +1,15 @@
+## Done with a basis
+
+Turns out [the lab](https://www.kth.se/social/files/54cb7578f27654629532c3cc/boids.pdf) had pretty much everything in it already. Just running the provided lab code gave this:
+
+![](Images/Initial.png?raw=true)
+
+And doing the lab (added like 12 lines of code and some other very minor changes) resulted in working rad looking schools:
+
+![](Images/first%20school.png?raw=true)
+
+Now we going to optimize to increase the number of fish and, of course, add a predator to the system.
+
 ## Starting the Project
 
 Since our focus is on the boid simulation and not the graphics part we were advised to use [a lab](https://www.kth.se/social/files/54cb7578f27654629532c3cc/boids.pdf) lab from the KTH course [Models and Simulation (DD1354)](https://www.kth.se/social/course/DD1354/) for a neat graphical basis. This will look much nicer than the project description version of shapes in different colors.
@@ -31,41 +43,56 @@ A predator actor exist in the simulation. The predator actor follows the mouse p
 
 The simulation is to be in real time from a 2D top-down perspective with actor fishes being different colored shapes to differentiate schooling fish from fish in a school from predator fish.
 
-
-## Sample code
-
+<!-- This is just help stuff when writing the blog. It will be removed once we no longer need it.
+## Sample code 
+-->
+<!--
 You can use the [editor on GitHub](https://github.com/gupett/CG-Project/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
+-->
+<!--
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
+-->
+<!--
 ### Markdown
-
+-->
+<!--
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+-->
+<!--
 ```markdown
 Syntax highlighted code block
-
+<!--
 # Header 1
 ## Header 2
 ### Header 3
-
+-->
+<!--
 - Bulleted
 - List
-
+-->
+<!--
 1. Numbered
 2. List
-
+-->
+<!--
 **Bold** and _Italic_ and `Code` text
-
+-->
+<!--
 [Link](url) and ![Image](src)
 ```
-
+-->
+<!--
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
+-->
+<!--
 ### Jekyll Themes
-
+-->
+<!--
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gupett/CG-Project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
+-->
+<!--
 ### Support or Contact
-
+-->
+<!--
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+-->
