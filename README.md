@@ -10,7 +10,7 @@ And doing the lab (added like 12 lines of code and some other very minor changes
 
 Instead of giving the answers to the lab we implemented we will explain how the boids work in this simulation.
 
-Each boid in the system have a acceleration. The acceleration updates the boid's _velocity_ and _position_ each time step. This acceleration is updated every time step from 3 different **forces**.
+Each boid in the system have a acceleration. The acceleration updates the boid's _velocity_ and _position_ each time step. This acceleration is updated every time step from 3 different **forces**:
 
 1. **Separation Force** is the force keeping the fishes from colliding. Every fish within some small radius of a fish is pushed away.
 2. **Alignment Force** is the force making fishes in a school move in a similar direction. The force makes the fish try to mimic the average velocity and direction of every fish within some sizeable radius.
