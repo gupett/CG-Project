@@ -1,3 +1,14 @@
+## Starts to look nice!
+
+![](Images/shark.png?raw=true)
+
+Today we added a shark boid to our implementation. The shark boid have similar behaviour as the fish boids, with the exception that they get drawn to the fish boids and the fish boids repel away from the sharks. The closer a shark is to a fish the greater it gets drawn to it and the reverse is true for a fish this force is added to the total force acting on the boid. 
+
+After implementing the new forces we had to experimente for a while to find good parameters which looked realistic.
+We found a free model online for the shark, the only proböem with the shark model is that it has no animated movement so it looks quite stiff.
+
+We have also been working on both a grid neighbor search and oct-tree neighbor search but they are currently not working as expected so further work is needed.
+
 ## Done with a Basis
 
 Turns out [the lab](https://www.kth.se/social/files/54cb7578f27654629532c3cc/boids.pdf) had pretty much everything in it already. Just running the provided lab code gave this:
