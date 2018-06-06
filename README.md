@@ -1,6 +1,6 @@
 ## Starts to look nice!
 
-![](Images/shark.png?raw=true)
+![](Images/Sharks.png?raw=true)
 
 Today we added a shark boid to our implementation. The shark boid have similar behaviour as the fish boids, with the exception that they get drawn to the fish boids and the fish boids repel away from the sharks. The closer a shark is to a fish the greater it gets drawn to it and the reverse is true for a fish this force is added to the total force acting on the boid. 
 
