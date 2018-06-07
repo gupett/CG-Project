@@ -1,3 +1,7 @@
+## Video of simulation
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/https://youtu.be/UjNBJ39XNQA/0.jpg)](https://www.youtube.com/watch?v=https://youtu.be/UjNBJ39XNQA)
+
+
 ## Starts to look nice!
 
 ![](Images/Sharks.png?raw=true)
