@@ -1,4 +1,5 @@
 ## Video of simulation
+Press the image below to see the video
 [![IMAGE ALT TEXT HERE](Images/Sharks.png?raw=true)](https://youtu.be/UjNBJ39XNQA)
 
 
