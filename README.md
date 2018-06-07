@@ -1,5 +1,5 @@
 ## Video of simulation
-[![IMAGE ALT TEXT HERE](https://youtu.be/UjNBJ39XNQA)](https://youtu.be/UjNBJ39XNQA)
+[![IMAGE ALT TEXT HERE](Images/Sharks.png?raw=true)](https://youtu.be/UjNBJ39XNQA)
 
 
 ## Starts to look nice!
