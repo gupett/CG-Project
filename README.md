@@ -1,3 +1,15 @@
+## Optimizations!
+
+We got the grid based neighbor search working. With it and a reduced search radius for the fishes allowed us to increase the number of boids to 500 in real time rendering (with some lag when they all make a single dense school).
+
+<!--![](Images/500.png?raw=true) -->
+
+The **grid based neighbor search** works by placing and moving the boids around in a grid system and when a boid is to find neighbors it only search the grid spaces in a square around its proximity instead of all boids in the system.
+
+The **octree neighbor search** might also be working but we are yet to test the latest fixes. We used [this](https://gamedevelopment.tutsplus.com/tutorials/quick-tip-use-quadtrees-to-detect-likely-collisions-in-2d-space--gamedev-374) Java quadtree guide by Steven Lambert when making our octree object. Octrees are essentially tree data structures where each node has 8 child notes. The octree neighbor search works by making the whole environment into a box with at most 8 boids in it. When there are more boids in a box then the box is split into eight smaller boxes where each should at most have 8 boids or else we split again (8 is the number we use while testing).
+
+We were close to giving up on the octree search and went home for the day when we figured out what the fault was. Turns out **object != null** always returns false in C#. Well test it tomorrow. So far we've been finishing up what we have by gathering results and writing the report and will hopefully have everything finished by tomorrow.
+
 ## Video of simulation
 Press the image below to see the video
 [![IMAGE ALT TEXT HERE](Images/Sharks.png?raw=true)](https://youtu.be/UjNBJ39XNQA)
