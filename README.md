@@ -4,7 +4,7 @@ There were a few more minor octree related problems than the one solved yesterda
 
 ![](Images/octreeBoids.png?raw=true)
 
-Though to some disappointment it was not as good of an optimization as grid based search was since octrees got us to around 300 boids while grid got 500 (and was much easier to implement). Octrees might have been beneficial if the objects (boids) were more spread, would have been the opposite of our case where the objects try to cluster.
+Though to some disappointment it was not as good of an optimization as grid based search was since octrees got us to around 300 boids while grid got 500 (and was much easier to implement). Octrees might have been more beneficial if the objects (boids) were more spread, which would have been the opposite of our case where the objects try to cluster in a small environment.
 
 This was the last thing we had planned for the project so it is _officially_ done but in reality there could be a lot more to do to improve it further, though we cannot continue with this forever.
 
