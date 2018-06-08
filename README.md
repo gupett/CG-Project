@@ -1,3 +1,33 @@
+## Optimizations!
+
+We got the grid based neighbor search working. With it and a reduced search radius for the fishes allowed us to increase the number of boids to 500 in real time rendering (with some lag when they all make a single dense school).
+
+<!--![](Images/500.png?raw=true) -->
+
+The **grid based neighbor search** works by placing and moving the boids around in a grid system and when a boid is to find neighbors it only search the grid spaces in a square around its proximity instead of all boids in the system.
+
+The **octree neighbor search** might also be working but we are yet to test the latest fixes. We used [this](https://gamedevelopment.tutsplus.com/tutorials/quick-tip-use-quadtrees-to-detect-likely-collisions-in-2d-space--gamedev-374) Java quadtree guide by Steven Lambert when making our octree object. Octrees are essentially tree data structures where each node has 8 child nodes. The octree neighbor search works by making the whole environment into a box with at most 10 boids in it. When there are more than 10 boids in a box the box is split into eight smaller boxes where each should at most have 10 boids or else we split the splits again (10 is the number we use while testing). 
+
+The octree makes us only check for neighbors in boxes within a proximity (where each box have a low amount of boids in it) instead of checking all boids in a system. Our implementation of updating the octree when boids move in the environment is sort of naive since we destroy the tree and recreate it every update (which is still faster than checking every boid in the system for many boids).
+
+We were close to giving up on the octree search and went home for the day when we figured out what the fault was. Turns out **object != null** always returns false in C#. Well test it tomorrow. So far we've been finishing up what we have by gathering results and writing the report and will hopefully have everything finished by tomorrow.
+
+## Video of simulation
+Press the image below to see the video
+[![IMAGE ALT TEXT HERE](Images/Sharks.png?raw=true)](https://youtu.be/UjNBJ39XNQA)
+
+
+## Starts to look nice!
+
+![](Images/Sharks.png?raw=true)
+
+Today we added a shark boid to our implementation. The shark boid have similar behaviour as the fish boids, with the exception that they get drawn to the fish boids and the fish boids repel away from the sharks. The closer a shark is to a fish the greater it gets drawn to it and the reverse is true for a fish this force is added to the total force acting on the boid. 
+
+After implementing the new forces we had to experimented for a while to find good parameters which looked realistic.
+We found a free model online for the shark, the only problem with the shark model is that it has no animated movement so it looks quite stiff.
+
+We have also been working on both a grid neighbor search and octree neighbor search but they are currently not working as expected so further work is needed.
+
 ## Done with a Basis
 
 Turns out [the lab](https://www.kth.se/social/files/54cb7578f27654629532c3cc/boids.pdf) had pretty much everything in it already. Just running the provided lab code gave this:
