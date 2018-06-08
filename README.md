@@ -2,7 +2,7 @@
 
 We got the grid based neighbor search working. With it and a reduced search radius for the fishes allowed us to increase the number of boids to 500 in real time rendering (with some lag when they all make a single dense school).
 
-<!--![](Images/500.png?raw=true) -->
+![](Images/500_boids.png?raw=true)
 
 The **grid based neighbor search** works by placing and moving the boids around in a grid system and when a boid is to find neighbors it only search the grid spaces in a square around its proximity instead of all boids in the system.
 
