@@ -1,3 +1,13 @@
+## Working Boid Simulation with Octrees
+
+There were a few more minor octree related problems than the one solved yesterday. Most of the time today were spent fixing the indexing on child boxes so they correspond to the proper box in our environment. Its tricky because the fishes bounding environment and the actual environment do not seem to be in sync for z making it look like we got our boxes wrong. The results were most satisfactory (at least when looking at the z axis):
+
+![](Images/octreeBoids.png?raw=true)
+
+This was the last thing we had planned for the project so it is _officially_ done but in reality there could be a lot more to do to improve it further, though we cannot continue with this forever.
+
+It should also be worth noting that we changed our problem description a while back to easier be able to write about a perceptual study. In the specification our problem was to experiment on the schooling fish survivability in the simulation, now instead it is about how realistic we can get the simulation.
+
 ## Optimizations!
 
 We got the grid based neighbor search working. With it and a reduced search radius for the fishes allowed us to increase the number of boids to 500 in real time rendering (with some lag when they all make a single dense school).
