@@ -1,6 +1,6 @@
 ## Working Boid Simulation with Octrees
 
-There were a few more minor octree related problems than the one solved yesterday. Most of the time today was spent fixing the indexing on child boxes so they correspond to the proper box in our environment. It's tricky because the fishes bounding environment and the actual environment do not seem to be in sync for z making it look like we got our boxes wrong. The results were most satisfactory (at least when looking at the z axis):
+There were a few more minor octree related problems than the one solved yesterday. Most of the time today was spent fixing the indexing on child boxes so they correspond to the proper box in our environment. It's tricky because the fishes bounding environment and the actual environment do not seem to be in sync for z (models are drawn with some unknown offset in z) making it look like we got our boxes wrong. The results were most satisfactory (at least when looking at the z axis):
 
 ![](Images/octreeBoids.png?raw=true)
 
